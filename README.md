@@ -7,9 +7,14 @@ With the exception of anything with tokens; the delimiter is not limited to only
 For example:
 
 mIRC: $gettok("Today was a good day.",2,32) = "was"
+
 str_tok: gettok("Today was a good day.",2," ") = "was"
+
 str_tok: gettok("Today was a good day.",1,"day") = "To"
+
 str_tok: gettok("Today was a good day.",2,"day") = " was a good "
+
 str_tok: gettok("Today was a good day.",3,"day") = "."
+
 
 There are a few other differences as well, but they are extended features. If you provide the same paramter input as you do with mIRC, you will receive the exact same output with str_tok.
